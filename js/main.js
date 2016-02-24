@@ -1,13 +1,12 @@
-
 var letter = prompt('Enter a letter');
 
-var triangle = function(name, times) {
+var triangle = function (name, times) {
   var i;
 
-  for (i = 0; i < times; i++){
+  for (i = 0; i < times; i++) {
     document.write(name);
   }
-  document.write('<br>')
+  document.write('<br>');
 };
 
 triangle(letter, 1);
